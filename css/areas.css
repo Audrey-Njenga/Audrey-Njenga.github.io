@@ -1,0 +1,127 @@
+.wrapper{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(/images/giammarco-boscaro-380903-unsplash.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+/* Practice Areas section */
+
+.wrapper .heading{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.heading h4{
+    padding: 20px 0 0 0;
+}
+
+
+.heading-areas{
+ 
+    background: whitesmoke;
+    text-align: center;
+}    
+.heading-areas h3 {
+color: maroon;
+}
+
+.heading-areas p{
+    line-height: 18px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 0px 60px;
+  
+}
+.services{
+   
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    text-align: center;
+    background: whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: center;
+    justify-items: center;
+    grid-gap: 40px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background: #f1f1f1f1;
+  }
+ 
+  .slideshow-container h3{ 
+      color: rgb(3, 0, 0);
+      text-align: center;
+      font-size: 17px;
+  }
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Add an italic font style to all quotes */
+  p{
+      font-size: 14px;}
+
+ h2{
+     color: maroon;
+     font-size: 20px;
+ }
